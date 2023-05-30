@@ -5,10 +5,11 @@
     <Nullable>enable</Nullable>
     <Authors>JoshJohnson, TrueCommercePSG</Authors>
     <Company>TrueCommerce, Inc</Company>
-    <Product>MermaidJS.Blazor</Product>
+    <Product>MermaidJS.Blazor.AF</Product>
     <Description>A simple MermaidDiagram component for Blazor.</Description>
     <Copyright>Copyright 2021, TrueCommerce, Inc</Copyright>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageProjectUrl>https://github.com/szostki/MermaidJS.Blazor</PackageProjectUrl>
   </PropertyGroup>
 
   

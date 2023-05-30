@@ -1,7 +1,7 @@
 ﻿using System;
 
-using MermaidJS.Blazor;
-using MermaidJS.Blazor.Internal;
+using MermaidJS.Blazor.AF;
+using MermaidJS.Blazor.AF.Internal;
 
 namespace Microsoft.Extensions.DependencyInjection
 {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using Microsoft.JSInterop;
 
-namespace MermaidJS.Blazor.Internal
+namespace MermaidJS.Blazor.AF.Internal
 {
     internal class MermaidDiagramInterop
     {
@@ -16,7 +16,7 @@ namespace MermaidJS.Blazor.Internal
         {
             _jsRuntime = jsRuntime;
             _mermaidOptions = mermaidOptions;
-            _jsModule = new(() => jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/MermaidJS.Blazor/MermaidDiagramInterop.js").AsTask());
+            _jsModule = new(() => jsRuntime.InvokeAsync<IJSObjectReference>("import", "./_content/MermaidJS.Blazor.AF/MermaidDiagramInterop.js").AsTask());
         }
 
         public async ValueTask BeginRender(MermaidDiagram component)

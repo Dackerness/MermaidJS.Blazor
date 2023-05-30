@@ -5,7 +5,7 @@
             if (!window.mermaid) {
                 const script = document.createElement("script");
 
-                script.src = "_content/MermaidJS.Blazor/lib/mermaid/mermaid.min.js";
+                script.src = "_content/MermaidJS.Blazor.AF/lib/mermaid/mermaid.min.js";
                 script.async = false;
                 script.defer = false;
                 script.onload = () => {
