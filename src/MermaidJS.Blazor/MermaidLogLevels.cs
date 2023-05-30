@@ -1,4 +1,4 @@
-﻿namespace MermaidJS.Blazor
+﻿namespace MermaidJS.Blazor.AF
 {
     /// <summary>
     /// Acceptable values for the logLevel initialization option.

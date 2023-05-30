@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace MermaidJS.Blazor
+namespace MermaidJS.Blazor.AF
 {
     /// <summary>
     /// Options used when initializing MermaidJS.
